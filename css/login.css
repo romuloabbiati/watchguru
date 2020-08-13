@@ -1,0 +1,82 @@
+body {
+	background-color: #ccc;
+	height: 100vh;
+	background-image: url('https://unsplash.it/g/1600/800?random');
+}
+
+.login-form {
+	margin-top: 50vh;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	padding: 20px 30px;
+
+	transform: translateY(-50%);
+}
+
+.login-form h1 {
+	margin: 0 0 5px;
+}
+
+.login-form h2 {
+	margin: 0 0 30px;
+	font-size: 1em;
+}
+
+
+/*------------------------*\
+	BOTÃO
+\*------------------------*/
+.botao {
+	/* Posicionamento */
+	
+	/* Display e Box Model */
+	display: inline-block;
+	padding: 12px 16px;
+	/* Cores */
+	background-color: #bbb;
+	color: #fff;
+	/* Texto */
+	text-decoration: none;
+	font-size: 1em;
+	line-height: normal;
+	/* Outro */
+	border: none;
+}
+
+.botao:hover, .botao:focus {
+	/* Posicionamento */
+	
+	/* Display e Box Model */
+	
+	/* Cores */
+	background-color: #aaa;
+	color: #fff;
+	/* Texto */
+	text-decoration: none;
+	/* Outro */	
+}
+
+.botao--principal {
+	/* Posicionamento */
+	
+	/* Display e Box Model */
+	border-radius: 10px;
+	/* Cores */
+	background-color: #004b86;
+	/* Texto */
+	
+	/* Outro */	
+}
+
+.botao--principal:hover, .botao--principal:focus {
+	/* Posicionamento */
+	
+	/* Display e Box Model */
+	
+	/* Cores */
+	background-color: #003b6a;
+	/* Texto */
+	
+	/* Outro */	
+}
+
